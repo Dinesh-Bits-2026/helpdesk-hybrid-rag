@@ -1,0 +1,242 @@
+[
+  {
+    "id": "KB-001",
+    "category": "Account & Access",
+    "title": "Reset your password",
+    "text": "To reset your corporate password, open the self-service portal and choose Forgot Password. Verify your identity with the one-time code sent to your registered mobile number. Passwords must be at least 12 characters and cannot reuse your last 10 passwords. Reset links expire after 15 minutes."
+  },
+  {
+    "id": "KB-002",
+    "category": "Account & Access",
+    "title": "Account locked after failed sign-in attempts",
+    "text": "Your account is locked automatically after 5 failed sign-in attempts. The lock clears by itself after 30 minutes. To unlock it sooner, use the self-service portal or ask the service desk to verify your identity and unlock it."
+  },
+  {
+    "id": "KB-003",
+    "category": "Account & Access",
+    "title": "Set up multi-factor authentication (MFA)",
+    "text": "Multi-factor authentication adds a second check when you sign in. Install the authenticator app on your phone, scan the QR code shown on the security settings page and enter the six-digit code to finish. Keep your MFA backup codes in a safe place."
+  },
+  {
+    "id": "KB-004",
+    "category": "Account & Access",
+    "title": "Lost or replaced phone for MFA",
+    "text": "If you lose or replace the phone that holds your authenticator app, you cannot approve sign-ins. Contact the service desk and verify your identity with your manager. Your MFA registration will be reset so that you can enrol the new device."
+  },
+  {
+    "id": "KB-005",
+    "category": "Account & Access",
+    "title": "Single sign-on (SSO) access to business apps",
+    "text": "Single sign-on lets you open approved business apps with one corporate identity. If an app asks for a separate username, you are not using the SSO link. Open the app from the company launcher page. Request access to new apps through the access request form."
+  },
+  {
+    "id": "KB-006",
+    "category": "Account & Access",
+    "title": "Request access to a shared folder or application",
+    "text": "Access to shared folders and applications is granted by role. Submit an access request in the portal, name the resource and give a business reason. Your line manager and the resource owner must both approve. Approval usually takes two working days."
+  },
+  {
+    "id": "KB-007",
+    "category": "Account & Access",
+    "title": "New joiner account setup",
+    "text": "On your first day you receive a corporate email address, a laptop and a temporary password. Sign in, change the temporary password and register for multi-factor authentication within 24 hours. Your manager raises the equipment and access requests before you join."
+  },
+  {
+    "id": "KB-008",
+    "category": "Network",
+    "title": "Connect to the corporate VPN",
+    "text": "Install the VPN client from the software portal, enter the gateway address shown on the intranet and sign in with your corporate credentials and MFA code. Always connect before opening internal sites when working remotely."
+  },
+  {
+    "id": "KB-009",
+    "category": "Network",
+    "title": "VPN error 809: connection failed",
+    "text": "VPN error 809 means the connection to the gateway could not be established. It is usually caused by UDP ports 500 and 4500 being blocked by your home router or a hotel network. Try a different network, restart the router or switch the client to the TCP-based connection option."
+  },
+  {
+    "id": "KB-010",
+    "category": "Network",
+    "title": "VPN is slow or keeps disconnecting",
+    "text": "A slow or unstable VPN is often caused by weak Wi-Fi or a congested home network. Move closer to the router, use a wired connection, close bandwidth-heavy apps such as video streaming, and disconnect and reconnect to be assigned a different gateway."
+  },
+  {
+    "id": "KB-011",
+    "category": "Network",
+    "title": "Office Wi-Fi connection",
+    "text": "Connect to the staff wireless network using your corporate credentials. Guests must use the guest network, which is separate and cannot reach internal systems. If the network does not appear, turn Wi-Fi off and on and forget the network before retrying."
+  },
+  {
+    "id": "KB-012",
+    "category": "Network",
+    "title": "Browser proxy and certificate warnings",
+    "text": "Internal sites sometimes show a certificate warning when the company proxy settings are missing. Enable automatic proxy configuration in your network settings and restart the browser. Never click through a certificate warning on an external banking or shopping site."
+  },
+  {
+    "id": "KB-013",
+    "category": "Hardware",
+    "title": "Laptop will not start or is very slow",
+    "text": "If the laptop does not start, hold the power button for 15 seconds, disconnect all accessories and try again. For a slow laptop, restart it at least once a week, check that the disk has 10 percent free space and close unused browser tabs."
+  },
+  {
+    "id": "KB-014",
+    "category": "Hardware",
+    "title": "Docking station and external monitor not detected",
+    "text": "If an external monitor is not detected, reseat the docking station cable, press the Windows key plus P and choose Extend. Update the display driver through the software portal if the monitor still shows no signal."
+  },
+  {
+    "id": "KB-015",
+    "category": "Hardware",
+    "title": "Add or fix a network printer",
+    "text": "To add a printer, open Printers and Scanners, search for the printer by its floor code and install the recommended driver. If print jobs are stuck, clear the print queue and restart the print spooler service."
+  },
+  {
+    "id": "KB-016",
+    "category": "Hardware",
+    "title": "Laptop battery and charger problems",
+    "text": "If the laptop battery drains quickly or does not charge, try a different power socket and check the charger for damage. Batteries below 60 percent health are replaced free of charge. Raise a hardware request with the asset tag number."
+  },
+  {
+    "id": "KB-017",
+    "category": "Hardware",
+    "title": "Request a keyboard, mouse or headset",
+    "text": "Peripherals such as a keyboard, mouse or headset can be requested through the equipment catalogue. Requests need manager approval and are delivered to your office desk or home address within five working days."
+  },
+  {
+    "id": "KB-018",
+    "category": "Hardware",
+    "title": "Laptop refresh cycle",
+    "text": "Laptops are refreshed every four years. You will be notified 60 days before your device is due. Back up your files to the corporate cloud storage; the refresh team will migrate your profile and apps to the new device."
+  },
+  {
+    "id": "KB-019",
+    "category": "Software",
+    "title": "Install approved software",
+    "text": "Approved applications can be installed from the software portal without administrator rights. If the application you need is not listed, submit a software request with the business justification. Security reviews take about five working days."
+  },
+  {
+    "id": "KB-020",
+    "category": "Software",
+    "title": "Windows update fails with error 0x80070005",
+    "text": "Error 0x80070005 during a Windows update means access denied. It is usually caused by missing permissions or security software blocking the installer. Restart the laptop, run the update troubleshooter and retry. If it fails again, raise a ticket and attach the update log."
+  },
+  {
+    "id": "KB-021",
+    "category": "Software",
+    "title": "Outlook cannot send mail: error 0x800CCC0E",
+    "text": "Error 0x800CCC0E means Outlook could not connect to the outgoing mail server. Check that you are online, switch off any personal VPN or proxy, then restart Outlook. If it persists, create a new Outlook profile from the control panel mail settings."
+  },
+  {
+    "id": "KB-022",
+    "category": "Software",
+    "title": "Microsoft Teams: no sound or camera",
+    "text": "If colleagues cannot hear or see you in Teams, open Settings, then Devices, and choose the correct microphone and camera. Check that the device is not muted in Windows privacy settings and that no other app is using the camera."
+  },
+  {
+    "id": "KB-023",
+    "category": "Software",
+    "title": "Office licence expired or product not activated",
+    "text": "If Office shows an unlicensed product banner, sign out and sign back in with your corporate email to refresh the licence. Licences are assigned automatically to active employees; contract staff need a licence request approved by their manager."
+  },
+  {
+    "id": "KB-024",
+    "category": "Software",
+    "title": "Large video meetings: best practice",
+    "text": "For meetings of more than 50 people, use the webinar format. Mute yourself when not speaking, turn off video if your connection is weak, and share a link to the document instead of sending large attachments in chat."
+  },
+  {
+    "id": "KB-025",
+    "category": "Security",
+    "title": "Report a phishing email",
+    "text": "If you receive a suspicious email, do not click links or open attachments. Use the Report Phishing button in Outlook to send it to the security team, then delete it. If you already clicked a link, change your password and call the service desk immediately."
+  },
+  {
+    "id": "KB-026",
+    "category": "Security",
+    "title": "Lost or stolen laptop or phone",
+    "text": "Report a lost or stolen device to the service desk within one hour; the desk is available twenty-four hours a day. The device will be locked and wiped remotely. For theft, also file a police report and share the reference number with security."
+  },
+  {
+    "id": "KB-027",
+    "category": "Security",
+    "title": "USB drives and removable media policy",
+    "text": "Unapproved USB storage devices are blocked on corporate laptops. If you need to transfer files for a client, request a one-time exception from your manager and the security team. Prefer approved cloud sharing for confidential data."
+  },
+  {
+    "id": "KB-028",
+    "category": "Security",
+    "title": "Data classification: public, internal, confidential",
+    "text": "Label documents as Public, Internal or Confidential. Confidential data, such as customer records, must be encrypted, shared only with named people and never sent to personal email or uploaded to public AI tools."
+  },
+  {
+    "id": "KB-029",
+    "category": "Security",
+    "title": "Using generative AI tools safely at work",
+    "text": "Use only approved generative AI tools. Never paste customer data, source code or confidential documents into public chatbots. Review AI-generated content for errors before sharing it and record significant AI use in your project notes."
+  },
+  {
+    "id": "KB-030",
+    "category": "Security",
+    "title": "Secure remote working checklist",
+    "text": "When working from home, use the VPN, lock your screen when you step away, keep your router firmware updated and avoid public Wi-Fi for confidential work. Do not let family members use your corporate laptop."
+  },
+  {
+    "id": "KB-031",
+    "category": "HR & Policy",
+    "title": "Apply for annual leave",
+    "text": "Apply for annual leave in the HR portal at least two weeks in advance for leave longer than three days. Your manager approves the request. Unused leave of up to five days can be carried forward to the next calendar year."
+  },
+  {
+    "id": "KB-032",
+    "category": "HR & Policy",
+    "title": "Sick leave and medical certificates",
+    "text": "Inform your manager before the start of your working day if you are unwell. A medical certificate is required for sick leave longer than two consecutive days. Record the absence in the HR portal when you return."
+  },
+  {
+    "id": "KB-033",
+    "category": "HR & Policy",
+    "title": "Work-from-home and hybrid policy",
+    "text": "Employees work from the office three days a week by default; team agreements can adjust this. Fully remote work needs written approval from your department head. Home-working equipment requests follow the standard equipment process."
+  },
+  {
+    "id": "KB-034",
+    "category": "HR & Policy",
+    "title": "Submit an expense claim",
+    "text": "Submit expense claims within 30 days in the finance portal with itemised receipts. Claims above 5,000 need approval from the department head. Reimbursement is paid with the next monthly salary run."
+  },
+  {
+    "id": "KB-035",
+    "category": "HR & Policy",
+    "title": "Company holiday calendar",
+    "text": "The holiday calendar is published each December on the intranet. Each location has its own list of public holidays plus two floating days that you can choose with your manager's approval."
+  },
+  {
+    "id": "KB-036",
+    "category": "Service Desk",
+    "title": "Raise a service desk ticket",
+    "text": "Raise a ticket through the service portal, by email or by calling the service desk. Include a clear title, what you expected, what happened, any error message and a screenshot. Tickets with complete details are resolved faster."
+  },
+  {
+    "id": "KB-037",
+    "category": "Service Desk",
+    "title": "Ticket priority and SLA targets",
+    "text": "Priority 1 means a complete outage affecting many users and is answered within 15 minutes. Priority 2 is a major issue for a team with a four-hour target. Priority 3 and 4 are single-user issues resolved within two and five working days."
+  },
+  {
+    "id": "KB-038",
+    "category": "Service Desk",
+    "title": "Escalate a ticket",
+    "text": "If your ticket has breached its target or your issue is urgent, reply to the ticket with the word Escalate and your reason, or call the service desk with your ticket number. Your request goes to the duty manager."
+  },
+  {
+    "id": "KB-039",
+    "category": "Service Desk",
+    "title": "Shared mailbox and distribution lists",
+    "text": "A shared mailbox is used by a team to manage a common email address. Ask the owner to add you; it appears in Outlook automatically within an hour. Distribution lists are managed by the list owner through the group portal."
+  },
+  {
+    "id": "KB-040",
+    "category": "Service Desk",
+    "title": "Cloud file storage and backup",
+    "text": "Save work files to the corporate cloud storage, not the local drive. Files there are backed up daily and can be restored for 30 days. Use version history to recover an earlier copy of a document you overwrote."
+  }
+]

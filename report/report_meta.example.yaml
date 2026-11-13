@@ -1,0 +1,10 @@
+# Copy to report_meta.yaml (which is git-ignored) and fill in. Used only by build_report.py.
+title: "Hybrid Search Helpdesk Assistant: Keyword + Vector Retrieval, Re-ranking and Guardrails"
+subtitle: "Conversational AI - Experiential Learning Assignment 1"
+author: "YOUR NAME"
+student_id: "YOUR ID"
+program: "M.Tech (AI/ML), BITS Pilani WILP"
+course: "AIMLCZG521 Conversational AI"
+submission_date: ""        # blank = the day you build the report
+group_note: ""             # e.g. "Group assignment (group of 5). Implementation, experiments and report by the author."
+environment_note: "Executed on a local CPU-only laptop with the lecturer's permission; the Groq free tier provided the LLM."

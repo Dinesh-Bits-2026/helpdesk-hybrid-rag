@@ -1,0 +1,284 @@
+[
+  {
+    "id": "Q-01",
+    "type": "keyword",
+    "query": "VPN error 809",
+    "relevant_ids": [
+      "KB-009"
+    ],
+    "expect_refusal": false,
+    "set": "core"
+  },
+  {
+    "id": "Q-02",
+    "type": "keyword",
+    "query": "0x80070005",
+    "relevant_ids": [
+      "KB-020"
+    ],
+    "expect_refusal": false,
+    "set": "core"
+  },
+  {
+    "id": "Q-03",
+    "type": "keyword",
+    "query": "0x800CCC0E",
+    "relevant_ids": [
+      "KB-021"
+    ],
+    "expect_refusal": false,
+    "set": "core"
+  },
+  {
+    "id": "Q-04",
+    "type": "keyword",
+    "query": "Priority 1 SLA",
+    "relevant_ids": [
+      "KB-037"
+    ],
+    "expect_refusal": false,
+    "set": "core"
+  },
+  {
+    "id": "Q-05",
+    "type": "keyword",
+    "query": "MFA backup codes",
+    "relevant_ids": [
+      "KB-003"
+    ],
+    "expect_refusal": false,
+    "set": "core"
+  },
+  {
+    "id": "Q-06",
+    "type": "paraphrase",
+    "query": "I cannot remember my login credentials",
+    "relevant_ids": [
+      "KB-001"
+    ],
+    "expect_refusal": false,
+    "set": "core"
+  },
+  {
+    "id": "Q-07",
+    "type": "paraphrase",
+    "query": "My second sign-in step stopped working after I got a new handset",
+    "relevant_ids": [
+      "KB-004"
+    ],
+    "expect_refusal": false,
+    "set": "core"
+  },
+  {
+    "id": "Q-08",
+    "type": "paraphrase",
+    "query": "Is it okay to put client information into ChatGPT?",
+    "relevant_ids": [
+      "KB-029",
+      "KB-028"
+    ],
+    "expect_refusal": false,
+    "set": "core"
+  },
+  {
+    "id": "Q-09",
+    "type": "paraphrase",
+    "query": "My external display stays black",
+    "relevant_ids": [
+      "KB-014"
+    ],
+    "expect_refusal": false,
+    "set": "core"
+  },
+  {
+    "id": "Q-10",
+    "type": "paraphrase",
+    "query": "Someone sent me a dodgy email with a link",
+    "relevant_ids": [
+      "KB-025"
+    ],
+    "expect_refusal": false,
+    "set": "core"
+  },
+  {
+    "id": "Q-11",
+    "type": "paraphrase",
+    "query": "How many days off can I roll over to next year?",
+    "relevant_ids": [
+      "KB-031"
+    ],
+    "expect_refusal": false,
+    "set": "core"
+  },
+  {
+    "id": "Q-12",
+    "type": "paraphrase",
+    "query": "Nobody can hear me in my online meeting",
+    "relevant_ids": [
+      "KB-022"
+    ],
+    "expect_refusal": false,
+    "set": "core"
+  },
+  {
+    "id": "Q-13",
+    "type": "mixed",
+    "query": "Laptop stolen, how fast must I report it?",
+    "relevant_ids": [
+      "KB-026"
+    ],
+    "expect_refusal": false,
+    "set": "core"
+  },
+  {
+    "id": "Q-14",
+    "type": "mixed",
+    "query": "Outlook will not send, error 0x800CCC0E, could my VPN be the cause?",
+    "relevant_ids": [
+      "KB-021"
+    ],
+    "expect_refusal": false,
+    "set": "core"
+  },
+  {
+    "id": "Q-15",
+    "type": "mixed",
+    "query": "Video call keeps freezing while on VPN",
+    "relevant_ids": [
+      "KB-010"
+    ],
+    "expect_refusal": false,
+    "set": "core"
+  },
+  {
+    "id": "Q-16",
+    "type": "out_of_scope",
+    "query": "What is the capital of France?",
+    "relevant_ids": [],
+    "expect_refusal": true,
+    "set": "core"
+  },
+  {
+    "id": "Q-17",
+    "type": "out_of_scope",
+    "query": "Recommend a good pizza place nearby",
+    "relevant_ids": [],
+    "expect_refusal": true,
+    "set": "core"
+  },
+  {
+    "id": "Q-18",
+    "type": "keyword",
+    "query": "My router blocks ports 500 and 4500",
+    "relevant_ids": [
+      "KB-009"
+    ],
+    "expect_refusal": false,
+    "set": "extended"
+  },
+  {
+    "id": "Q-19",
+    "type": "keyword",
+    "query": "Where do I find the asset tag number for a hardware request?",
+    "relevant_ids": [
+      "KB-016"
+    ],
+    "expect_refusal": false,
+    "set": "extended"
+  },
+  {
+    "id": "Q-20",
+    "type": "keyword",
+    "query": "How do I restart the print spooler?",
+    "relevant_ids": [
+      "KB-015"
+    ],
+    "expect_refusal": false,
+    "set": "extended"
+  },
+  {
+    "id": "Q-21",
+    "type": "keyword",
+    "query": "Who approves expense claims above 5,000?",
+    "relevant_ids": [
+      "KB-034"
+    ],
+    "expect_refusal": false,
+    "set": "extended"
+  },
+  {
+    "id": "Q-22",
+    "type": "paraphrase",
+    "query": "Someone nicked my laptop on the train",
+    "relevant_ids": [
+      "KB-026"
+    ],
+    "expect_refusal": false,
+    "set": "extended"
+  },
+  {
+    "id": "Q-23",
+    "type": "paraphrase",
+    "query": "Can I use a free AI writing tool to draft a customer proposal?",
+    "relevant_ids": [
+      "KB-029",
+      "KB-028"
+    ],
+    "expect_refusal": false,
+    "set": "extended"
+  },
+  {
+    "id": "Q-24",
+    "type": "paraphrase",
+    "query": "Is it fine to work from a coffee shop on public Wi-Fi?",
+    "relevant_ids": [
+      "KB-030"
+    ],
+    "expect_refusal": false,
+    "set": "extended"
+  },
+  {
+    "id": "Q-25",
+    "type": "paraphrase",
+    "query": "I need new headphones with a microphone for calls",
+    "relevant_ids": [
+      "KB-017"
+    ],
+    "expect_refusal": false,
+    "set": "extended"
+  },
+  {
+    "id": "Q-26",
+    "type": "mixed",
+    "query": "I typed my password wrong too many times and now I am locked out",
+    "relevant_ids": [
+      "KB-002"
+    ],
+    "expect_refusal": false,
+    "set": "extended"
+  },
+  {
+    "id": "Q-27",
+    "type": "out_of_scope",
+    "query": "What is the weather in Mumbai today?",
+    "relevant_ids": [],
+    "expect_refusal": true,
+    "set": "extended"
+  },
+  {
+    "id": "Q-28",
+    "type": "out_of_scope",
+    "query": "How do I configure a Kubernetes cluster?",
+    "relevant_ids": [],
+    "expect_refusal": true,
+    "set": "extended"
+  },
+  {
+    "id": "Q-29",
+    "type": "out_of_scope",
+    "query": "Write me a poem about my manager",
+    "relevant_ids": [],
+    "expect_refusal": true,
+    "set": "extended"
+  }
+]

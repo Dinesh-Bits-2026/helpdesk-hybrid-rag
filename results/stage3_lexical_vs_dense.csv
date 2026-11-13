@@ -1,0 +1,46 @@
+qid,type,query,method,relevant,top3,hit@1,recall@3,mrr
+Q-01,keyword,VPN error 809,tfidf,KB-009,"KB-009,KB-008,KB-021",1.0,1.0,1.0
+Q-02,keyword,0x80070005,tfidf,KB-020,KB-020,1.0,1.0,1.0
+Q-03,keyword,0x800CCC0E,tfidf,KB-021,KB-021,1.0,1.0,1.0
+Q-04,keyword,Priority 1 SLA,tfidf,KB-037,KB-037,1.0,1.0,1.0
+Q-05,keyword,MFA backup codes,tfidf,KB-003,"KB-003,KB-004,KB-008",1.0,1.0,1.0
+Q-06,paraphrase,I cannot remember my login credentials,tfidf,KB-001,"KB-011,KB-008,KB-004",0.0,0.0,0.0
+Q-07,paraphrase,My second sign-in step stopped working after I got a new handset,tfidf,KB-004,"KB-002,KB-030,KB-033",0.0,0.0,0.2
+Q-08,paraphrase,Is it okay to put client information into ChatGPT?,tfidf,"KB-029,KB-028","KB-008,KB-027,KB-009",0.0,0.0,0.0
+Q-09,paraphrase,My external display stays black,tfidf,KB-014,"KB-014,KB-012",1.0,1.0,1.0
+Q-10,paraphrase,Someone sent me a dodgy email with a link,tfidf,KB-025,"KB-025,KB-028,KB-001",1.0,1.0,1.0
+Q-11,paraphrase,How many days off can I roll over to next year?,tfidf,KB-031,"KB-031,KB-018,KB-034",1.0,1.0,1.0
+Q-12,paraphrase,Nobody can hear me in my online meeting,tfidf,KB-022,"KB-022,KB-021",1.0,1.0,1.0
+Q-13,mixed,"Laptop stolen, how fast must I report it?",tfidf,KB-026,"KB-026,KB-025,KB-013",1.0,1.0,1.0
+Q-14,mixed,"Outlook will not send, error 0x800CCC0E, could my VPN be the cause?",tfidf,KB-021,"KB-021,KB-009,KB-025",1.0,1.0,1.0
+Q-15,mixed,Video call keeps freezing while on VPN,tfidf,KB-010,"KB-010,KB-024,KB-030",1.0,1.0,1.0
+Q-01,keyword,VPN error 809,bm25,KB-009,"KB-009,KB-021,KB-008",1.0,1.0,1.0
+Q-02,keyword,0x80070005,bm25,KB-020,KB-020,1.0,1.0,1.0
+Q-03,keyword,0x800CCC0E,bm25,KB-021,KB-021,1.0,1.0,1.0
+Q-04,keyword,Priority 1 SLA,bm25,KB-037,KB-037,1.0,1.0,1.0
+Q-05,keyword,MFA backup codes,bm25,KB-003,"KB-003,KB-008,KB-004",1.0,1.0,1.0
+Q-06,paraphrase,I cannot remember my login credentials,bm25,KB-001,"KB-011,KB-008,KB-004",0.0,0.0,0.0
+Q-07,paraphrase,My second sign-in step stopped working after I got a new handset,bm25,KB-004,"KB-002,KB-030,KB-003",0.0,0.0,0.2
+Q-08,paraphrase,Is it okay to put client information into ChatGPT?,bm25,"KB-029,KB-028","KB-008,KB-027,KB-009",0.0,0.0,0.0
+Q-09,paraphrase,My external display stays black,bm25,KB-014,"KB-014,KB-012",1.0,1.0,1.0
+Q-10,paraphrase,Someone sent me a dodgy email with a link,bm25,KB-025,"KB-025,KB-028,KB-001",1.0,1.0,1.0
+Q-11,paraphrase,How many days off can I roll over to next year?,bm25,KB-031,"KB-031,KB-018,KB-034",1.0,1.0,1.0
+Q-12,paraphrase,Nobody can hear me in my online meeting,bm25,KB-022,"KB-022,KB-021",1.0,1.0,1.0
+Q-13,mixed,"Laptop stolen, how fast must I report it?",bm25,KB-026,"KB-026,KB-025,KB-013",1.0,1.0,1.0
+Q-14,mixed,"Outlook will not send, error 0x800CCC0E, could my VPN be the cause?",bm25,KB-021,"KB-021,KB-009,KB-025",1.0,1.0,1.0
+Q-15,mixed,Video call keeps freezing while on VPN,bm25,KB-010,"KB-010,KB-030,KB-024",1.0,1.0,1.0
+Q-01,keyword,VPN error 809,dense,KB-009,"KB-009,KB-010,KB-008",1.0,1.0,1.0
+Q-02,keyword,0x80070005,dense,KB-020,"KB-020,KB-021,KB-009",1.0,1.0,1.0
+Q-03,keyword,0x800CCC0E,dense,KB-021,"KB-021,KB-020,KB-015",1.0,1.0,1.0
+Q-04,keyword,Priority 1 SLA,dense,KB-037,"KB-037,KB-038,KB-036",1.0,1.0,1.0
+Q-05,keyword,MFA backup codes,dense,KB-003,"KB-003,KB-004,KB-001",1.0,1.0,1.0
+Q-06,paraphrase,I cannot remember my login credentials,dense,KB-001,"KB-001,KB-002,KB-007",1.0,1.0,1.0
+Q-07,paraphrase,My second sign-in step stopped working after I got a new handset,dense,KB-004,"KB-004,KB-002,KB-007",1.0,1.0,1.0
+Q-08,paraphrase,Is it okay to put client information into ChatGPT?,dense,"KB-029,KB-028","KB-029,KB-024,KB-028",1.0,1.0,1.0
+Q-09,paraphrase,My external display stays black,dense,KB-014,"KB-014,KB-016,KB-012",1.0,1.0,1.0
+Q-10,paraphrase,Someone sent me a dodgy email with a link,dense,KB-025,"KB-025,KB-036,KB-012",1.0,1.0,1.0
+Q-11,paraphrase,How many days off can I roll over to next year?,dense,KB-031,"KB-035,KB-031,KB-018",0.0,1.0,0.5
+Q-12,paraphrase,Nobody can hear me in my online meeting,dense,KB-022,"KB-024,KB-022,KB-038",0.0,1.0,0.5
+Q-13,mixed,"Laptop stolen, how fast must I report it?",dense,KB-026,"KB-026,KB-018,KB-002",1.0,1.0,1.0
+Q-14,mixed,"Outlook will not send, error 0x800CCC0E, could my VPN be the cause?",dense,KB-021,"KB-021,KB-009,KB-010",1.0,1.0,1.0
+Q-15,mixed,Video call keeps freezing while on VPN,dense,KB-010,"KB-010,KB-009,KB-008",1.0,1.0,1.0

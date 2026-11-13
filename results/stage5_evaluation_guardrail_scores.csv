@@ -1,0 +1,30 @@
+qid,refuse,query,dense_cos,rerank
+Q-01,False,VPN error 809,0.8093182444572449,10.090063095092773
+Q-02,False,0x80070005,0.44379088282585144,8.076553344726562
+Q-03,False,0x800CCC0E,0.3789316415786743,8.053287506103516
+Q-04,False,Priority 1 SLA,0.691137433052063,8.356012344360352
+Q-05,False,MFA backup codes,0.7288463115692139,6.78590202331543
+Q-06,False,I cannot remember my login credentials,0.4953732490539551,-6.8360795974731445
+Q-07,False,My second sign-in step stopped working after I got a new handset,0.4244462847709656,-5.889756202697754
+Q-08,False,Is it okay to put client information into ChatGPT?,0.35044339299201965,-7.68236780166626
+Q-09,False,My external display stays black,0.4743299186229706,-4.438483238220215
+Q-10,False,Someone sent me a dodgy email with a link,0.6358364820480347,-2.3703277111053467
+Q-11,False,How many days off can I roll over to next year?,0.4219333529472351,-0.35113370418548584
+Q-12,False,Nobody can hear me in my online meeting,0.4460981488227844,-6.907552719116211
+Q-13,False,"Laptop stolen, how fast must I report it?",0.7520880699157715,6.7896904945373535
+Q-14,False,"Outlook will not send, error 0x800CCC0E, could my VPN be the cause?",0.7720893621444702,8.120245933532715
+Q-15,False,Video call keeps freezing while on VPN,0.6543189287185669,-1.3574261665344238
+Q-16,True,What is the capital of France?,0.07701534777879715,-11.126176834106445
+Q-17,True,Recommend a good pizza place nearby,0.169498473405838,-11.146242141723633
+Q-18,False,My router blocks ports 500 and 4500,0.31436824798583984,6.839954853057861
+Q-19,False,Where do I find the asset tag number for a hardware request?,0.269459068775177,0.9580093622207642
+Q-20,False,How do I restart the print spooler?,0.6719039082527161,7.4095659255981445
+Q-21,False,"Who approves expense claims above 5,000?",0.5867353677749634,8.005197525024414
+Q-22,False,Someone nicked my laptop on the train,0.4462208151817322,-7.207812309265137
+Q-23,False,Can I use a free AI writing tool to draft a customer proposal?,0.5214577913284302,0.5085856914520264
+Q-24,False,Is it fine to work from a coffee shop on public Wi-Fi?,0.43521976470947266,-5.941167831420898
+Q-25,False,I need new headphones with a microphone for calls,0.37267324328422546,-10.517810821533203
+Q-26,False,I typed my password wrong too many times and now I am locked out,0.5799050331115723,-6.173249244689941
+Q-27,True,What is the weather in Mumbai today?,0.13893651962280273,-11.208015441894531
+Q-28,True,How do I configure a Kubernetes cluster?,0.14679662883281708,-11.239557266235352
+Q-29,True,Write me a poem about my manager,0.19567149877548218,-10.691606521606445

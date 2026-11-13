@@ -1,0 +1,121 @@
+qid,set,type,query,method,relevant,top3,hit@1,recall@3,mrr
+Q-01,core,keyword,VPN error 809,bm25,KB-009,"KB-009,KB-021,KB-008",1.0,1.0,1.0
+Q-02,core,keyword,0x80070005,bm25,KB-020,KB-020,1.0,1.0,1.0
+Q-03,core,keyword,0x800CCC0E,bm25,KB-021,KB-021,1.0,1.0,1.0
+Q-04,core,keyword,Priority 1 SLA,bm25,KB-037,KB-037,1.0,1.0,1.0
+Q-05,core,keyword,MFA backup codes,bm25,KB-003,"KB-003,KB-008,KB-004",1.0,1.0,1.0
+Q-06,core,paraphrase,I cannot remember my login credentials,bm25,KB-001,"KB-011,KB-008,KB-004",0.0,0.0,0.0
+Q-07,core,paraphrase,My second sign-in step stopped working after I got a new handset,bm25,KB-004,"KB-002,KB-030,KB-003",0.0,0.0,0.2
+Q-08,core,paraphrase,Is it okay to put client information into ChatGPT?,bm25,"KB-029,KB-028","KB-008,KB-027,KB-009",0.0,0.0,0.0
+Q-09,core,paraphrase,My external display stays black,bm25,KB-014,"KB-014,KB-012",1.0,1.0,1.0
+Q-10,core,paraphrase,Someone sent me a dodgy email with a link,bm25,KB-025,"KB-025,KB-028,KB-001",1.0,1.0,1.0
+Q-11,core,paraphrase,How many days off can I roll over to next year?,bm25,KB-031,"KB-031,KB-018,KB-034",1.0,1.0,1.0
+Q-12,core,paraphrase,Nobody can hear me in my online meeting,bm25,KB-022,"KB-022,KB-021",1.0,1.0,1.0
+Q-13,core,mixed,"Laptop stolen, how fast must I report it?",bm25,KB-026,"KB-026,KB-025,KB-013",1.0,1.0,1.0
+Q-14,core,mixed,"Outlook will not send, error 0x800CCC0E, could my VPN be the cause?",bm25,KB-021,"KB-021,KB-009,KB-025",1.0,1.0,1.0
+Q-15,core,mixed,Video call keeps freezing while on VPN,bm25,KB-010,"KB-010,KB-030,KB-024",1.0,1.0,1.0
+Q-18,extended,keyword,My router blocks ports 500 and 4500,bm25,KB-009,"KB-009,KB-030,KB-027",1.0,1.0,1.0
+Q-19,extended,keyword,Where do I find the asset tag number for a hardware request?,bm25,KB-016,"KB-016,KB-038,KB-017",1.0,1.0,1.0
+Q-20,extended,keyword,How do I restart the print spooler?,bm25,KB-015,"KB-015,KB-012,KB-013",1.0,1.0,1.0
+Q-21,extended,keyword,"Who approves expense claims above 5,000?",bm25,KB-034,"KB-034,KB-002,KB-004",1.0,1.0,1.0
+Q-22,extended,paraphrase,Someone nicked my laptop on the train,bm25,KB-026,"KB-013,KB-018,KB-016",0.0,0.0,0.0
+Q-23,extended,paraphrase,Can I use a free AI writing tool to draft a customer proposal?,bm25,"KB-029,KB-028","KB-029,KB-028,KB-016",1.0,1.0,1.0
+Q-24,extended,paraphrase,Is it fine to work from a coffee shop on public Wi-Fi?,bm25,KB-030,"KB-030,KB-011,KB-010",1.0,1.0,1.0
+Q-25,extended,paraphrase,I need new headphones with a microphone for calls,bm25,KB-017,"KB-022,KB-038,KB-036",0.0,0.0,0.0
+Q-26,extended,mixed,I typed my password wrong too many times and now I am locked out,bm25,KB-002,"KB-001,KB-002,KB-007",0.0,1.0,0.5
+Q-01,core,keyword,VPN error 809,dense,KB-009,"KB-009,KB-010,KB-008",1.0,1.0,1.0
+Q-02,core,keyword,0x80070005,dense,KB-020,"KB-020,KB-021,KB-009",1.0,1.0,1.0
+Q-03,core,keyword,0x800CCC0E,dense,KB-021,"KB-021,KB-020,KB-015",1.0,1.0,1.0
+Q-04,core,keyword,Priority 1 SLA,dense,KB-037,"KB-037,KB-038,KB-036",1.0,1.0,1.0
+Q-05,core,keyword,MFA backup codes,dense,KB-003,"KB-003,KB-004,KB-001",1.0,1.0,1.0
+Q-06,core,paraphrase,I cannot remember my login credentials,dense,KB-001,"KB-001,KB-002,KB-007",1.0,1.0,1.0
+Q-07,core,paraphrase,My second sign-in step stopped working after I got a new handset,dense,KB-004,"KB-004,KB-002,KB-007",1.0,1.0,1.0
+Q-08,core,paraphrase,Is it okay to put client information into ChatGPT?,dense,"KB-029,KB-028","KB-029,KB-024,KB-028",1.0,1.0,1.0
+Q-09,core,paraphrase,My external display stays black,dense,KB-014,"KB-014,KB-016,KB-012",1.0,1.0,1.0
+Q-10,core,paraphrase,Someone sent me a dodgy email with a link,dense,KB-025,"KB-025,KB-036,KB-012",1.0,1.0,1.0
+Q-11,core,paraphrase,How many days off can I roll over to next year?,dense,KB-031,"KB-035,KB-031,KB-018",0.0,1.0,0.5
+Q-12,core,paraphrase,Nobody can hear me in my online meeting,dense,KB-022,"KB-024,KB-022,KB-038",0.0,1.0,0.5
+Q-13,core,mixed,"Laptop stolen, how fast must I report it?",dense,KB-026,"KB-026,KB-018,KB-002",1.0,1.0,1.0
+Q-14,core,mixed,"Outlook will not send, error 0x800CCC0E, could my VPN be the cause?",dense,KB-021,"KB-021,KB-009,KB-010",1.0,1.0,1.0
+Q-15,core,mixed,Video call keeps freezing while on VPN,dense,KB-010,"KB-010,KB-009,KB-008",1.0,1.0,1.0
+Q-18,extended,keyword,My router blocks ports 500 and 4500,dense,KB-009,"KB-009,KB-030,KB-027",1.0,1.0,1.0
+Q-19,extended,keyword,Where do I find the asset tag number for a hardware request?,dense,KB-016,"KB-017,KB-026,KB-006",0.0,0.0,0.0
+Q-20,extended,keyword,How do I restart the print spooler?,dense,KB-015,"KB-015,KB-001,KB-023",1.0,1.0,1.0
+Q-21,extended,keyword,"Who approves expense claims above 5,000?",dense,KB-034,"KB-034,KB-006,KB-027",1.0,1.0,1.0
+Q-22,extended,paraphrase,Someone nicked my laptop on the train,dense,KB-026,"KB-026,KB-038,KB-036",1.0,1.0,1.0
+Q-23,extended,paraphrase,Can I use a free AI writing tool to draft a customer proposal?,dense,"KB-029,KB-028","KB-029,KB-017,KB-028",1.0,1.0,1.0
+Q-24,extended,paraphrase,Is it fine to work from a coffee shop on public Wi-Fi?,dense,KB-030,"KB-030,KB-011,KB-033",1.0,1.0,1.0
+Q-25,extended,paraphrase,I need new headphones with a microphone for calls,dense,KB-017,"KB-017,KB-024,KB-022",1.0,1.0,1.0
+Q-26,extended,mixed,I typed my password wrong too many times and now I am locked out,dense,KB-002,"KB-001,KB-002,KB-007",0.0,1.0,0.5
+Q-01,core,keyword,VPN error 809,hybrid,KB-009,"KB-009,KB-010,KB-008",1.0,1.0,1.0
+Q-02,core,keyword,0x80070005,hybrid,KB-020,"KB-020,KB-021,KB-009",1.0,1.0,1.0
+Q-03,core,keyword,0x800CCC0E,hybrid,KB-021,"KB-021,KB-020,KB-015",1.0,1.0,1.0
+Q-04,core,keyword,Priority 1 SLA,hybrid,KB-037,"KB-037,KB-038,KB-036",1.0,1.0,1.0
+Q-05,core,keyword,MFA backup codes,hybrid,KB-003,"KB-003,KB-004,KB-040",1.0,1.0,1.0
+Q-06,core,paraphrase,I cannot remember my login credentials,hybrid,KB-001,"KB-001,KB-004,KB-011",1.0,1.0,1.0
+Q-07,core,paraphrase,My second sign-in step stopped working after I got a new handset,hybrid,KB-004,"KB-002,KB-004,KB-003",0.0,1.0,0.5
+Q-08,core,paraphrase,Is it okay to put client information into ChatGPT?,hybrid,"KB-029,KB-028","KB-008,KB-027,KB-009",0.0,0.0,0.25
+Q-09,core,paraphrase,My external display stays black,hybrid,KB-014,"KB-014,KB-012,KB-016",1.0,1.0,1.0
+Q-10,core,paraphrase,Someone sent me a dodgy email with a link,hybrid,KB-025,"KB-025,KB-036,KB-001",1.0,1.0,1.0
+Q-11,core,paraphrase,How many days off can I roll over to next year?,hybrid,KB-031,"KB-031,KB-018,KB-035",1.0,1.0,1.0
+Q-12,core,paraphrase,Nobody can hear me in my online meeting,hybrid,KB-022,"KB-022,KB-021,KB-024",1.0,1.0,1.0
+Q-13,core,mixed,"Laptop stolen, how fast must I report it?",hybrid,KB-026,"KB-026,KB-018,KB-025",1.0,1.0,1.0
+Q-14,core,mixed,"Outlook will not send, error 0x800CCC0E, could my VPN be the cause?",hybrid,KB-021,"KB-021,KB-009,KB-025",1.0,1.0,1.0
+Q-15,core,mixed,Video call keeps freezing while on VPN,hybrid,KB-010,"KB-010,KB-030,KB-008",1.0,1.0,1.0
+Q-18,extended,keyword,My router blocks ports 500 and 4500,hybrid,KB-009,"KB-009,KB-030,KB-027",1.0,1.0,1.0
+Q-19,extended,keyword,Where do I find the asset tag number for a hardware request?,hybrid,KB-016,"KB-017,KB-026,KB-006",0.0,0.0,0.0
+Q-20,extended,keyword,How do I restart the print spooler?,hybrid,KB-015,"KB-015,KB-021,KB-013",1.0,1.0,1.0
+Q-21,extended,keyword,"Who approves expense claims above 5,000?",hybrid,KB-034,"KB-034,KB-006,KB-004",1.0,1.0,1.0
+Q-22,extended,paraphrase,Someone nicked my laptop on the train,hybrid,KB-026,"KB-026,KB-030,KB-016",1.0,1.0,1.0
+Q-23,extended,paraphrase,Can I use a free AI writing tool to draft a customer proposal?,hybrid,"KB-029,KB-028","KB-029,KB-028,KB-024",1.0,1.0,1.0
+Q-24,extended,paraphrase,Is it fine to work from a coffee shop on public Wi-Fi?,hybrid,KB-030,"KB-030,KB-011,KB-033",1.0,1.0,1.0
+Q-25,extended,paraphrase,I need new headphones with a microphone for calls,hybrid,KB-017,"KB-022,KB-036,KB-017",0.0,1.0,0.3333333333333333
+Q-26,extended,mixed,I typed my password wrong too many times and now I am locked out,hybrid,KB-002,"KB-001,KB-002,KB-007",0.0,1.0,0.5
+Q-01,core,keyword,VPN error 809,dense+rerank,KB-009,"KB-009,KB-021,KB-010",1.0,1.0,1.0
+Q-02,core,keyword,0x80070005,dense+rerank,KB-020,"KB-020,KB-021,KB-009",1.0,1.0,1.0
+Q-03,core,keyword,0x800CCC0E,dense+rerank,KB-021,"KB-021,KB-020,KB-009",1.0,1.0,1.0
+Q-04,core,keyword,Priority 1 SLA,dense+rerank,KB-037,"KB-037,KB-003,KB-033",1.0,1.0,1.0
+Q-05,core,keyword,MFA backup codes,dense+rerank,KB-003,"KB-003,KB-004,KB-008",1.0,1.0,1.0
+Q-06,core,paraphrase,I cannot remember my login credentials,dense+rerank,KB-001,"KB-001,KB-011,KB-004",1.0,1.0,1.0
+Q-07,core,paraphrase,My second sign-in step stopped working after I got a new handset,dense+rerank,KB-004,"KB-002,KB-004,KB-003",0.0,1.0,0.5
+Q-08,core,paraphrase,Is it okay to put client information into ChatGPT?,dense+rerank,"KB-029,KB-028","KB-029,KB-024,KB-027",1.0,0.5,1.0
+Q-09,core,paraphrase,My external display stays black,dense+rerank,KB-014,"KB-014,KB-012,KB-013",1.0,1.0,1.0
+Q-10,core,paraphrase,Someone sent me a dodgy email with a link,dense+rerank,KB-025,"KB-025,KB-021,KB-001",1.0,1.0,1.0
+Q-11,core,paraphrase,How many days off can I roll over to next year?,dense+rerank,KB-031,"KB-031,KB-018,KB-034",1.0,1.0,1.0
+Q-12,core,paraphrase,Nobody can hear me in my online meeting,dense+rerank,KB-022,"KB-024,KB-022,KB-011",0.0,1.0,0.5
+Q-13,core,mixed,"Laptop stolen, how fast must I report it?",dense+rerank,KB-026,"KB-026,KB-013,KB-018",1.0,1.0,1.0
+Q-14,core,mixed,"Outlook will not send, error 0x800CCC0E, could my VPN be the cause?",dense+rerank,KB-021,"KB-021,KB-009,KB-020",1.0,1.0,1.0
+Q-15,core,mixed,Video call keeps freezing while on VPN,dense+rerank,KB-010,"KB-010,KB-030,KB-009",1.0,1.0,1.0
+Q-18,extended,keyword,My router blocks ports 500 and 4500,dense+rerank,KB-009,"KB-009,KB-027,KB-010",1.0,1.0,1.0
+Q-19,extended,keyword,Where do I find the asset tag number for a hardware request?,dense+rerank,KB-016,"KB-016,KB-017,KB-005",1.0,1.0,1.0
+Q-20,extended,keyword,How do I restart the print spooler?,dense+rerank,KB-015,"KB-015,KB-013,KB-001",1.0,1.0,1.0
+Q-21,extended,keyword,"Who approves expense claims above 5,000?",dense+rerank,KB-034,"KB-034,KB-006,KB-019",1.0,1.0,1.0
+Q-22,extended,paraphrase,Someone nicked my laptop on the train,dense+rerank,KB-026,"KB-026,KB-013,KB-020",1.0,1.0,1.0
+Q-23,extended,paraphrase,Can I use a free AI writing tool to draft a customer proposal?,dense+rerank,"KB-029,KB-028","KB-029,KB-028,KB-033",1.0,1.0,1.0
+Q-24,extended,paraphrase,Is it fine to work from a coffee shop on public Wi-Fi?,dense+rerank,KB-030,"KB-030,KB-011,KB-010",1.0,1.0,1.0
+Q-25,extended,paraphrase,I need new headphones with a microphone for calls,dense+rerank,KB-017,"KB-022,KB-017,KB-004",0.0,1.0,0.5
+Q-26,extended,mixed,I typed my password wrong too many times and now I am locked out,dense+rerank,KB-002,"KB-002,KB-001,KB-025",1.0,1.0,1.0
+Q-01,core,keyword,VPN error 809,hybrid+rerank,KB-009,"KB-009,KB-021,KB-010",1.0,1.0,1.0
+Q-02,core,keyword,0x80070005,hybrid+rerank,KB-020,"KB-020,KB-021,KB-009",1.0,1.0,1.0
+Q-03,core,keyword,0x800CCC0E,hybrid+rerank,KB-021,"KB-021,KB-020,KB-009",1.0,1.0,1.0
+Q-04,core,keyword,Priority 1 SLA,hybrid+rerank,KB-037,"KB-037,KB-003,KB-033",1.0,1.0,1.0
+Q-05,core,keyword,MFA backup codes,hybrid+rerank,KB-003,"KB-003,KB-004,KB-008",1.0,1.0,1.0
+Q-06,core,paraphrase,I cannot remember my login credentials,hybrid+rerank,KB-001,"KB-001,KB-011,KB-004",1.0,1.0,1.0
+Q-07,core,paraphrase,My second sign-in step stopped working after I got a new handset,hybrid+rerank,KB-004,"KB-002,KB-004,KB-003",0.0,1.0,0.5
+Q-08,core,paraphrase,Is it okay to put client information into ChatGPT?,hybrid+rerank,"KB-029,KB-028","KB-029,KB-024,KB-027",1.0,0.5,1.0
+Q-09,core,paraphrase,My external display stays black,hybrid+rerank,KB-014,"KB-014,KB-012,KB-013",1.0,1.0,1.0
+Q-10,core,paraphrase,Someone sent me a dodgy email with a link,hybrid+rerank,KB-025,"KB-025,KB-024,KB-028",1.0,1.0,1.0
+Q-11,core,paraphrase,How many days off can I roll over to next year?,hybrid+rerank,KB-031,"KB-031,KB-018,KB-034",1.0,1.0,1.0
+Q-12,core,paraphrase,Nobody can hear me in my online meeting,hybrid+rerank,KB-022,"KB-024,KB-022,KB-011",0.0,1.0,0.5
+Q-13,core,mixed,"Laptop stolen, how fast must I report it?",hybrid+rerank,KB-026,"KB-026,KB-013,KB-018",1.0,1.0,1.0
+Q-14,core,mixed,"Outlook will not send, error 0x800CCC0E, could my VPN be the cause?",hybrid+rerank,KB-021,"KB-021,KB-009,KB-020",1.0,1.0,1.0
+Q-15,core,mixed,Video call keeps freezing while on VPN,hybrid+rerank,KB-010,"KB-010,KB-030,KB-009",1.0,1.0,1.0
+Q-18,extended,keyword,My router blocks ports 500 and 4500,hybrid+rerank,KB-009,"KB-009,KB-027,KB-010",1.0,1.0,1.0
+Q-19,extended,keyword,Where do I find the asset tag number for a hardware request?,hybrid+rerank,KB-016,"KB-016,KB-017,KB-005",1.0,1.0,1.0
+Q-20,extended,keyword,How do I restart the print spooler?,hybrid+rerank,KB-015,"KB-015,KB-013,KB-012",1.0,1.0,1.0
+Q-21,extended,keyword,"Who approves expense claims above 5,000?",hybrid+rerank,KB-034,"KB-034,KB-006,KB-031",1.0,1.0,1.0
+Q-22,extended,paraphrase,Someone nicked my laptop on the train,hybrid+rerank,KB-026,"KB-026,KB-013,KB-020",1.0,1.0,1.0
+Q-23,extended,paraphrase,Can I use a free AI writing tool to draft a customer proposal?,hybrid+rerank,"KB-029,KB-028","KB-029,KB-028,KB-019",1.0,1.0,1.0
+Q-24,extended,paraphrase,Is it fine to work from a coffee shop on public Wi-Fi?,hybrid+rerank,KB-030,"KB-030,KB-011,KB-010",1.0,1.0,1.0
+Q-25,extended,paraphrase,I need new headphones with a microphone for calls,hybrid+rerank,KB-017,"KB-022,KB-017,KB-004",0.0,1.0,0.5
+Q-26,extended,mixed,I typed my password wrong too many times and now I am locked out,hybrid+rerank,KB-002,"KB-002,KB-001,KB-025",1.0,1.0,1.0

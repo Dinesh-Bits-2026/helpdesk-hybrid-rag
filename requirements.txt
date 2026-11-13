@@ -1,0 +1,16 @@
+# Version ranges, not exact pins: after your first successful install run
+#   pip freeze > requirements.lock.txt
+# and commit that file. That is your reproducible, exact-version record.
+pyyaml>=6.0
+python-dotenv>=1.0
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.4
+rank-bm25>=0.2.2
+sentence-transformers>=3.0
+groq>=0.9
+streamlit>=1.35
+matplotlib>=3.8
+pytest>=8.0
+reportlab>=4.0
+pillow>=10.0

@@ -1,0 +1,14 @@
+GitHub-readiness patch for helpdesk-assistant (on top of the report2 patch). Extract into your helpdesk-assistant folder, replace when asked.
+
+  README.md                           REPLACED with a portfolio-style README (results, architecture, guardrails, quick start)
+  .gitignore                          REPLACED: also ignores report PDF, report_meta.yaml, screenshots, decision log, logs, zip files
+  .gitattributes                      NEW  line-ending handling
+  .github/workflows/tests.yml         NEW  runs pytest on every push (no model download, no API key)
+  docs/DESIGN.md, docs/DEMO.md        NEW  design notes and a 2-minute demo path (no personal notes)
+  docs/images/architecture.png        NEW  diagram used by the README
+  scripts/check_before_push.py        NEW  scans what would be committed for secrets, personal paths, big files
+  scripts/export_readme_assets.py     NEW  copies charts and screenshots into docs/images for the README
+  report/report_meta.example.yaml     NEW  template; your real report_meta.yaml stays local and git-ignored
+  PUSH_GUIDE.md                       NEW  step-by-step push checklist (git-ignored, do not commit)
+
+Your own files (report_meta.yaml, docs/decision_log.md, results/, logs/, .env) are not touched; the new .gitignore keeps the private ones out of git.

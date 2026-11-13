@@ -1,0 +1,73 @@
+# Single source of truth for every tunable in the project.
+# Change values here, not in the code. Stages 2-8 will add to the sections below.
+
+project:
+  name: "Helpdesk Hybrid Search Assistant"
+  seed: 42                       # reproducibility: same seed -> same results
+
+domain:                          # swap these to change domain (e.g. workforce management later)
+  name: "Enterprise IT & Employee Helpdesk"
+  assistant_name: "HelpBot"
+  out_of_scope_message: "I can only help with IT and employee helpdesk questions. Please rephrase or raise a ticket."
+
+paths:
+  corpus: "data/corpus.json"
+  test_queries: "data/test_queries.json"
+  logs_dir: "logs"
+  results_dir: "results"
+
+logging:
+  level: "INFO"                  # DEBUG | INFO | WARNING
+  file: "logs/helpdesk.log"
+  request_log: "logs/requests.jsonl"   # one JSON line per question: status, sources, latency (PII already masked)
+
+lexical:                         # shared by TF-IDF and BM25 (Stage 2)
+  stemming: "light"              # light | none  (light = strip plural / -ing / -ed endings)
+  remove_stopwords: true
+  tfidf:
+    sublinear_tf: false          # true = dampen repeated words with 1 + log(tf)
+
+retrieval:
+  top_k: 5                       # results returned to the user
+  candidate_pool: 20             # how many each retriever hands to fusion
+  bm25:
+    k1: 1.5                      # term-frequency saturation
+    b: 0.75                      # document-length normalisation
+  embedding:
+    backend: "sentence-transformers"   # sentence-transformers | hashing (hashing = offline test stand-in, NOT semantic)
+    model: "sentence-transformers/all-MiniLM-L6-v2"
+    batch_size: 32
+    cache_dir: "data/cache"            # article vectors are computed once and reused
+  fusion:
+    method: "rrf"
+    rrf_k: 60                    # RRF smoothing constant (bigger = flatter, rank 1 matters less)
+    weights:                     # 1.0 = equal say; keep equal unless evaluation says otherwise
+      bm25: 1.0
+      dense: 1.0
+
+reranker:
+  enabled: true
+  backend: "cross-encoder"       # cross-encoder | overlap (overlap = offline test stand-in, NOT a real re-ranker)
+  model: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+  batch_size: 16
+  candidate_pool: 20             # how many fused candidates get re-scored (cheap: 20 short passages per query)
+  top_n: 3                       # how many passages go to the LLM after re-ranking
+
+pipeline:
+  default: "hybrid_rerank"       # bm25 | dense | hybrid | dense_rerank | hybrid_rerank
+
+guardrails:
+  min_dense_cosine: 0.23         # refuse when the best article is less similar than this (set between observed values; validate with --calibrate)
+  pii: "redact"                  # redact | off  (emails, phones, cards, PAN, Aadhaar-style numbers are masked before LLM and logs)
+  block_prompt_injection: true   # first-line regex check only; see decision log for limits
+  require_citation: true         # answers must cite a retrieved article id, else flagged 'uncited'
+
+generation:
+  provider: "groq"
+  model: "openai/gpt-oss-120b"            # worked in the MLOps assignment; confirm id in Groq console
+  fallback_model: "llama-3.3-70b-versatile"
+  reasoning_effort: "low"                  # gpt-oss only: low | medium | high (verify in Stage 6)
+  temperature: 0.1
+  max_tokens: 1024                         # gpt-oss spends part of this on hidden reasoning
+  timeout_seconds: 30
+  max_retries: 2                           # SDK-level retries for transient errors

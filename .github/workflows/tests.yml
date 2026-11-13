@@ -1,0 +1,14 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      # The tests use offline stand-ins for the embedding model, re-ranker and LLM,
+      # so CI needs no model download and no API key.
+      - run: pip install pyyaml numpy pandas scikit-learn pytest
+      - run: python -m pytest -q

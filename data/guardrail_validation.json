@@ -1,0 +1,22 @@
+[
+  {"id": "V-01", "in_scope": true,  "query": "How long until my locked account unlocks by itself?"},
+  {"id": "V-02", "in_scope": true,  "query": "What is the minimum length of a password?"},
+  {"id": "V-03", "in_scope": true,  "query": "Where can I download the VPN client?"},
+  {"id": "V-04", "in_scope": true,  "query": "Do I need approval to work fully remote?"},
+  {"id": "V-05", "in_scope": true,  "query": "How long are my files kept in the backup?"},
+  {"id": "V-06", "in_scope": true,  "query": "What should I include when I log a ticket?"},
+  {"id": "V-07", "in_scope": true,  "query": "Can I plug in my own USB stick?"},
+  {"id": "V-08", "in_scope": true,  "query": "When do I get a replacement for my old laptop?"},
+  {"id": "V-09", "in_scope": true,  "query": "My print jobs are stuck in the queue"},
+  {"id": "V-10", "in_scope": true,  "query": "Who do I contact if the phone with my authenticator app is gone?"},
+  {"id": "V-11", "in_scope": false, "query": "What is the best programming language to learn first?"},
+  {"id": "V-12", "in_scope": false, "query": "How do I reset my personal Gmail password?"},
+  {"id": "V-13", "in_scope": false, "query": "Translate good morning into French"},
+  {"id": "V-14", "in_scope": false, "query": "Who won the cricket match yesterday?"},
+  {"id": "V-15", "in_scope": false, "query": "How do I install Photoshop on my Mac at home?"},
+  {"id": "V-16", "in_scope": false, "query": "Explain how transformers work in deep learning"},
+  {"id": "V-17", "in_scope": false, "query": "What is the company share price today?"},
+  {"id": "V-18", "in_scope": false, "query": "Suggest a recipe for dinner tonight"},
+  {"id": "V-19", "in_scope": false, "query": "How do I connect my home Xbox to my Wi-Fi?"},
+  {"id": "V-20", "in_scope": false, "query": "What is the salary band for a senior engineer?"}
+]

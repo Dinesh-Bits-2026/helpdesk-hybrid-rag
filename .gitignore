@@ -1,0 +1,29 @@
+# secrets and local environment
+.env
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# runtime output (re-created by running the project)
+logs/*.log
+logs/*.jsonl
+data/cache/
+
+# report output: contains personal details (name, id) and your screenshots
+report/*.pdf
+report/assets/
+report/report_meta.yaml
+report/screenshots/*
+!report/screenshots/.gitkeep
+
+# personal working notes and packaging leftovers
+docs/decision_log*.md
+PUSH_GUIDE.md
+*.zip
